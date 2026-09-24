@@ -1,56 +1,42 @@
-<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect x="0.5" y="0.5" width="1199" height="319" rx="18" fill="#0D1117" stroke="#30363D"/>
-  <g opacity="0.6" stroke="#21262D" stroke-width="1">
-    <path d="M760 0V320"/><path d="M840 0V320"/><path d="M920 0V320"/><path d="M1000 0V320"/><path d="M1080 0V320"/>
-    <path d="M760 64H1200"/><path d="M760 128H1200"/><path d="M760 192H1200"/><path d="M760 256H1200"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+<rect width="1200" height="360" rx="24" fill="#0d1117"/>
+<defs>
+  <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#a371f7" stop-opacity="0.15"/>
+    <stop offset="0.45" stop-color="#a371f7" stop-opacity="0.95"/>
+    <stop offset="1" stop-color="#8957e5" stop-opacity="0.2"/>
+  </linearGradient>
+  <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect x="1" y="1" width="1198" height="358" rx="23" fill="none" stroke="#30363d"/>
+<text x="58" y="72" fill="#a371f7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono',monospace" font-size="14" letter-spacing="4">SOFTWARE ENGINEER</text>
+<text x="58" y="139" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="46" font-weight="700">Mohammad Sobhan Saririan</text>
+<text x="58" y="187" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="22">Backend Systems · Product Engineering · Applied AI</text>
+<rect x="58" y="220" width="48" height="3" rx="1.5" fill="#a371f7"/>
+<text x="58" y="264" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17">Software for real operational workflows.</text>
+<text x="58" y="294" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17">Backend engineering, automation, data, and applied AI.</text>
 
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace">
-    <text x="56" y="76" fill="#58A6FF" font-size="13" letter-spacing="6">SOFTWARE ENGINEER</text>
-  </g>
-  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
-    <text x="56" y="146" fill="#F0F6FC" font-size="46" font-weight="650">Mohammad Sobhan Saririan</text>
-    <text x="56" y="190" fill="#B1BAC4" font-size="22">AI Systems · Backend Engineering · Product Engineering</text>
-    <rect x="56" y="222" width="48" height="3" rx="1.5" fill="#2F81F7">
-      <animate attributeName="width" values="48;92;48" dur="8s" repeatCount="indefinite" keyTimes="0;0.15;1"/>
-    </rect>
-    <text x="56" y="266" fill="#8B949E" font-size="17">Software for real operational workflows.</text>
-  </g>
-
-  <!-- signature systems trace -->
-  <g transform="translate(782 58)">
-    <g stroke="#30363D" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.95">
-      <path d="M6 170H78V132H150V88H222V46H302"/>
-      <path d="M48 24H110V58H182V108H252V146H360"/>
-    </g>
-
-    <!-- draw accent path -->
-    <path d="M6 170H78V132H150V88H222V46H302" stroke="#2F81F7" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
-      <animate attributeName="stroke-dashoffset" values="1;0;0" keyTimes="0;0.28;1" dur="8s" repeatCount="indefinite"/>
-    </path>
-
-    <!-- moving pulse -->
-    <circle r="4.5" fill="#58A6FF">
-      <animateMotion dur="8s" repeatCount="indefinite" keyTimes="0;0.28;1" keyPoints="0;1;1" calcMode="linear" path="M6 170H78V132H150V88H222V46H302"/>
-      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.03;0.26;0.31;1" dur="8s" repeatCount="indefinite"/>
-    </circle>
-
-    <!-- nodes -->
-    <g fill="#0D1117" stroke="#8B949E" stroke-width="1.2">
-      <circle cx="6" cy="170" r="4"/><circle cx="78" cy="132" r="4"/><circle cx="150" cy="88" r="4"/><circle cx="222" cy="46" r="4"/><circle cx="302" cy="46" r="4"/>
-      <circle cx="48" cy="24" r="3"/><circle cx="110" cy="58" r="3"/><circle cx="182" cy="108" r="3"/><circle cx="252" cy="146" r="3"/><circle cx="360" cy="146" r="3"/>
-    </g>
-    <g fill="#0D1117" stroke="#58A6FF" stroke-width="1.8">
-      <circle cx="78" cy="132" r="5"><animate attributeName="r" values="5;5;8;5;5" keyTimes="0;0.08;0.11;0.16;1" dur="8s" repeatCount="indefinite"/></circle>
-      <circle cx="150" cy="88" r="5"><animate attributeName="r" values="5;5;8;5;5" keyTimes="0;0.13;0.16;0.21;1" dur="8s" repeatCount="indefinite"/></circle>
-      <circle cx="222" cy="46" r="5"><animate attributeName="r" values="5;5;8;5;5" keyTimes="0;0.18;0.21;0.26;1" dur="8s" repeatCount="indefinite"/></circle>
-    </g>
-
-    <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" letter-spacing="3" fill="#8B949E">
-      <text x="314" y="28">SYSTEMS</text>
-      <text x="314" y="50">BACKEND</text>
-      <text x="314" y="72">AUTOMATION</text>
-      <text x="314" y="94">DATA</text>
-    </g>
-  </g>
+<!-- subtle topology -->
+<g opacity="0.22" stroke="#30363d" stroke-width="1">
+  <path d="M700 60H1140M700 110H1140M700 160H1140M700 210H1140M700 260H1140M700 310H1140"/>
+  <path d="M720 45V325M800 45V325M880 45V325M960 45V325M1040 45V325M1120 45V325"/>
+</g>
+<g fill="none" stroke="#6e7681" stroke-width="1.5" opacity="0.65">
+  <path d="M712 250H790V202H862V156H934"/>
+  <path d="M760 92H842V126H916V178H990V224H1090"/>
+  <path d="M842 126V92H920V78H1004"/>
+</g>
+<path id="trace" d="M712 250H790V202H862V156H934" fill="none" stroke="url(#accentLine)" stroke-width="3" stroke-linecap="round" stroke-dasharray="290" stroke-dashoffset="290">
+  <animate attributeName="stroke-dashoffset" values="290;0;0;290" keyTimes="0;0.35;0.8;1" dur="6s" repeatCount="indefinite"/>
+</path>
+<circle r="5" fill="#a371f7" filter="url(#glow)">
+  <animateMotion dur="6s" repeatCount="indefinite" keyTimes="0;0.35;0.8;1" keyPoints="0;1;1;0" calcMode="linear" path="M712 250H790V202H862V156H934"/>
+  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.8;1" dur="6s" repeatCount="indefinite"/>
+</circle>
+<circle cx="712" cy="250" r="4" fill="#0d1117" stroke="#a371f7" stroke-width="1.5"/><circle cx="790" cy="202" r="4" fill="#0d1117" stroke="#a371f7" stroke-width="1.5"/><circle cx="862" cy="156" r="4" fill="#0d1117" stroke="#a371f7" stroke-width="1.5"/><circle cx="934" cy="156" r="4" fill="#0d1117" stroke="#a371f7" stroke-width="1.5"/><circle cx="760" cy="92" r="4" fill="#0d1117" stroke="#a371f7" stroke-width="1.5"/><circle cx="842" cy="126" r="4" fill="#0d1117" stroke="#a371f7" stroke-width="1.5"/><circle cx="916" cy="178" r="4" fill="#0d1117" stroke="#a371f7" stroke-width="1.5"/><circle cx="990" cy="224" r="4" fill="#0d1117" stroke="#a371f7" stroke-width="1.5"/><circle cx="1090" cy="224" r="4" fill="#0d1117" stroke="#a371f7" stroke-width="1.5"/><circle cx="842" cy="92" r="4" fill="#0d1117" stroke="#a371f7" stroke-width="1.5"/><circle cx="920" cy="78" r="4" fill="#0d1117" stroke="#a371f7" stroke-width="1.5"/><circle cx="1004" cy="78" r="4" fill="#0d1117" stroke="#a371f7" stroke-width="1.5"/>
+<rect x="1010" y="54" width="2" height="78" rx="1" fill="#a371f7"/>
+<text x="1030" y="70" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="2">SYSTEMS</text>
+<text x="1030" y="92" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="2">AUTOMATION</text>
+<text x="1030" y="114" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="2">DATA</text>
+<text x="1030" y="136" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="2">APPLIED AI</text>
 </svg>

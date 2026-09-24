@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="236" viewBox="0 0 1200 236">
+<rect width="1200" height="236" rx="24" fill="#0d1117"/>
+<rect x="1" y="1" width="1198" height="234" rx="23" fill="none" stroke="#30363d"/><text x="46" y="56" fill="#a371f7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono',monospace" font-size="13" letter-spacing="3">02 / INTELLIGENCE</text><text x="46" y="104" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="28" font-weight="650">EWS Email Intelligence Agent</text><text x="46" y="143" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16">Retrieval, evidence handling, grounded reporting, answer</text><text x="46" y="168" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16">generation, and agentic workflows.</text><text x="46" y="207" fill="#a371f7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono',monospace" font-size="12" letter-spacing="1.3">PYTHON  /  RETRIEVAL  /  EVIDENCE  /  LLM SYSTEMS</text><path d="M1090 70h34v34" fill="none" stroke="#a371f7" stroke-width="2"/><path d="M1088 106l36-36" stroke="#a371f7" stroke-width="2"/><line x1="640" y1="34" x2="640" y2="202" stroke="#30363d"/><g transform="translate(692 42)">
+<rect x="0" y="0" width="420" height="150" rx="16" fill="#10161f" stroke="#30363d"/>
+<g stroke="#30363d" fill="none" stroke-width="1.4">
+<path d="M88 75H170M250 44L322 74M250 106L322 74M170 75L250 44M170 75L250 106"/>
+</g>
+<g fill="#0d1117" stroke="#a371f7" stroke-width="2">
+<rect x="36" y="52" width="52" height="46" rx="10"/><rect x="144" y="52" width="52" height="46" rx="10"/><rect x="224" y="20" width="52" height="46" rx="10"/><rect x="224" y="84" width="52" height="46" rx="10"/><rect x="318" y="51" width="64" height="48" rx="10"/>
+</g>
+<path d="M47 66h30v18H47zM47 66l15 11 15-11" fill="none" stroke="#a371f7" stroke-width="1.7"/>
+<circle cx="170" cy="75" r="6" fill="#a371f7"/>
+<circle cx="250" cy="43" r="5" fill="#a371f7"/><circle cx="250" cy="107" r="5" fill="#a371f7"/><circle cx="350" cy="75" r="6" fill="#a371f7"/>
+</g></svg>

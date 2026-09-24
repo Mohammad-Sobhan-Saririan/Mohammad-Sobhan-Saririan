@@ -4,25 +4,51 @@
   <img alt="Mohammad Sobhan Saririan — Software Engineer" src="./assets/hero-light.svg" width="100%">
 </picture>
 
-I work on backend systems, workflow automation, data-heavy applications, and applied AI. Below is a selection of projects built around real operational requirements.
+Backend systems, workflow automation, data-intensive applications, and applied AI for operational software.
 
-## Selected engineering work
+## Projects
 
-### [Smart Food Operations Platform](https://github.com/Mohammad-Sobhan-Saririan/smart-food-operations-platform)
-Operational platform for workflow management, RBAC, realtime updates, reporting, administration, and business integrations.
+<a href="https://github.com/Mohammad-Sobhan-Saririan/smart-food-operations-platform">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/project-1-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/project-1-light.svg">
+    <img alt="Smart Food Operations Platform" src="./assets/project-1-light.svg" width="100%">
+  </picture>
+</a>
 
-`Python` `FastAPI` `PostgreSQL` `Realtime Systems`
+<br>
 
-### [EWS Email Intelligence Agent](https://github.com/Mohammad-Sobhan-Saririan/ews-email-intelligence-agent)
-Email intelligence system built around retrieval, evidence handling, grounded reporting, answer generation, and agentic workflows.
+<a href="https://github.com/Mohammad-Sobhan-Saririan/ews-email-intelligence-agent">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/project-2-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/project-2-light.svg">
+    <img alt="EWS Email Intelligence Agent" src="./assets/project-2-light.svg" width="100%">
+  </picture>
+</a>
 
-`Python` `LLM Systems` `Retrieval` `Evidence Pipelines`
+<br>
 
-### [Alibaba DMS Data Agent Lab](https://github.com/Mohammad-Sobhan-Saririan/alibaba-dms-data-agent-lab)
-Integration engineering lab for Alibaba DMS Data Agent APIs, including streaming, checkpoint/resume, HITL flows, file analysis, and API tracing.
+<a href="https://github.com/Mohammad-Sobhan-Saririan/alibaba-dms-data-agent-lab">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/project-3-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/project-3-light.svg">
+    <img alt="Alibaba DMS Data Agent Lab" src="./assets/project-3-light.svg" width="100%">
+  </picture>
+</a>
 
-`Python` `API Integration` `SSE` `Agent Systems`
+## Toolbox
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/toolbox-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/toolbox-light.svg">
+  <img alt="Engineering toolbox" src="./assets/toolbox-light.svg" width="100%">
+</picture>
 
-<sub>Current focus: backend systems, production AI, and workflow-oriented software.</sub>
+## Current focus
+
+Backend architecture · Production AI systems · Integrations & automation
+
+<!--
+Add verified public links here when ready, for example:
+[LinkedIn](YOUR_LINKEDIN_URL) · [Website](YOUR_WEBSITE_URL) · [Email](mailto:YOUR_EMAIL)
+-->
