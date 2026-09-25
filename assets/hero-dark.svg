@@ -1,42 +1,88 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
-<rect width="1200" height="360" rx="24" fill="#0d1117"/>
-<defs>
-  <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#a371f7" stop-opacity="0.15"/>
-    <stop offset="0.45" stop-color="#a371f7" stop-opacity="0.95"/>
-    <stop offset="1" stop-color="#8957e5" stop-opacity="0.2"/>
-  </linearGradient>
-  <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-</defs>
-<rect x="1" y="1" width="1198" height="358" rx="23" fill="none" stroke="#30363d"/>
-<text x="58" y="72" fill="#a371f7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono',monospace" font-size="14" letter-spacing="4">SOFTWARE ENGINEER</text>
-<text x="58" y="139" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="46" font-weight="700">Mohammad Sobhan Saririan</text>
-<text x="58" y="187" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="22">Backend Systems · Product Engineering · Applied AI</text>
-<rect x="58" y="220" width="48" height="3" rx="1.5" fill="#a371f7"/>
-<text x="58" y="264" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17">Software for real operational workflows.</text>
-<text x="58" y="294" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17">Backend engineering, automation, data, and applied AI.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Mohammad Sobhan Saririan — Software Engineer</title>
+  <desc id="desc">Animated engineering profile header with a violet systems path moving through backend, data, automation, applied AI, systems, and product nodes.</desc>
+  <defs>
+    <linearGradient id="edge" x1="0" x2="1">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="0.55" stop-color="#a371f7"/>
+      <stop offset="1" stop-color="#c4b5fd"/>
+    </linearGradient>
+    <radialGradient id="pulse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.22" stop-color="#ddd6fe"/>
+      <stop offset="0.55" stop-color="#a371f7"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-200%" y="-200%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#21262d" stroke-width="1"/>
+    </pattern>
+    <path id="route" d="M 795 92
+      C 860 72, 936 84, 959 132
+      C 980 175, 934 196, 892 180
+      C 835 158, 808 204, 838 242
+      C 865 276, 929 276, 965 248
+      C 1002 220, 1046 234, 1054 278
+      C 1061 316, 1024 342, 982 333
+      C 930 321, 894 344, 866 371"/>
+  </defs>
 
-<!-- subtle topology -->
-<g opacity="0.22" stroke="#30363d" stroke-width="1">
-  <path d="M700 60H1140M700 110H1140M700 160H1140M700 210H1140M700 260H1140M700 310H1140"/>
-  <path d="M720 45V325M800 45V325M880 45V325M960 45V325M1040 45V325M1120 45V325"/>
-</g>
-<g fill="none" stroke="#6e7681" stroke-width="1.5" opacity="0.65">
-  <path d="M712 250H790V202H862V156H934"/>
-  <path d="M760 92H842V126H916V178H990V224H1090"/>
-  <path d="M842 126V92H920V78H1004"/>
-</g>
-<path id="trace" d="M712 250H790V202H862V156H934" fill="none" stroke="url(#accentLine)" stroke-width="3" stroke-linecap="round" stroke-dasharray="290" stroke-dashoffset="290">
-  <animate attributeName="stroke-dashoffset" values="290;0;0;290" keyTimes="0;0.35;0.8;1" dur="6s" repeatCount="indefinite"/>
-</path>
-<circle r="5" fill="#a371f7" filter="url(#glow)">
-  <animateMotion dur="6s" repeatCount="indefinite" keyTimes="0;0.35;0.8;1" keyPoints="0;1;1;0" calcMode="linear" path="M712 250H790V202H862V156H934"/>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.8;1" dur="6s" repeatCount="indefinite"/>
-</circle>
-<circle cx="712" cy="250" r="4" fill="#0d1117" stroke="#a371f7" stroke-width="1.5"/><circle cx="790" cy="202" r="4" fill="#0d1117" stroke="#a371f7" stroke-width="1.5"/><circle cx="862" cy="156" r="4" fill="#0d1117" stroke="#a371f7" stroke-width="1.5"/><circle cx="934" cy="156" r="4" fill="#0d1117" stroke="#a371f7" stroke-width="1.5"/><circle cx="760" cy="92" r="4" fill="#0d1117" stroke="#a371f7" stroke-width="1.5"/><circle cx="842" cy="126" r="4" fill="#0d1117" stroke="#a371f7" stroke-width="1.5"/><circle cx="916" cy="178" r="4" fill="#0d1117" stroke="#a371f7" stroke-width="1.5"/><circle cx="990" cy="224" r="4" fill="#0d1117" stroke="#a371f7" stroke-width="1.5"/><circle cx="1090" cy="224" r="4" fill="#0d1117" stroke="#a371f7" stroke-width="1.5"/><circle cx="842" cy="92" r="4" fill="#0d1117" stroke="#a371f7" stroke-width="1.5"/><circle cx="920" cy="78" r="4" fill="#0d1117" stroke="#a371f7" stroke-width="1.5"/><circle cx="1004" cy="78" r="4" fill="#0d1117" stroke="#a371f7" stroke-width="1.5"/>
-<rect x="1010" y="54" width="2" height="78" rx="1" fill="#a371f7"/>
-<text x="1030" y="70" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="2">SYSTEMS</text>
-<text x="1030" y="92" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="2">AUTOMATION</text>
-<text x="1030" y="114" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="2">DATA</text>
-<text x="1030" y="136" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="2">APPLIED AI</text>
+  <rect x="1" y="1" width="1198" height="428" rx="20" fill="#0d1117" stroke="#30363d"/>
+  <rect x="720" y="1" width="478" height="428" rx="20" fill="url(#grid)" opacity="0.78"/>
+  <path d="M720 20V410" stroke="#30363d"/>
+
+  <g font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="56" y="77" fill="#a371f7" font-size="13" font-weight="700" letter-spacing="4">SOFTWARE ENGINEER</text>
+    <text x="56" y="144" fill="#f0f6fc" font-size="50" font-weight="700" letter-spacing="-1.6">Mohammad Sobhan Saririan</text>
+    <text x="56" y="188" fill="#c9d1d9" font-size="20">Backend Systems · Automation · Data · Applied AI · Product Engineering</text>
+
+    <rect x="56" y="226" width="56" height="3" rx="2" fill="#a371f7">
+      <animate attributeName="width" values="42;88;42" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.65;1;0.65" dur="7s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="56" y="284" fill="#8b949e" font-size="17">Building software across real operational workflows.</text>
+    <text x="56" y="317" fill="#8b949e" font-size="17">Moving between systems, backend, data, automation and applied AI.</text>
+
+    <g fill="#8b949e" font-size="12" font-weight="600" letter-spacing="2.4">
+      <text x="56" y="381">SYSTEMS / BACKEND / DATA / AUTOMATION / APPLIED AI / PRODUCT</text>
+    </g>
+  </g>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <use href="#route" stroke="#30363d" stroke-width="16" opacity="0.24"/>
+    <use href="#route" stroke="url(#edge)" stroke-width="2.4"/>
+    <use href="#route" stroke="#c4b5fd" stroke-width="1.2" stroke-dasharray="3 12" opacity="0.55">
+      <animate attributeName="stroke-dashoffset" from="0" to="-60" dur="5s" repeatCount="indefinite"/>
+    </use>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="600" letter-spacing="1.7">
+    <g transform="translate(795 92)">
+      <circle r="7" fill="#0d1117" stroke="#a371f7" stroke-width="2"/>
+      <circle r="18" fill="none" stroke="#a371f7" opacity="0"><animate attributeName="r" values="8;21" dur="6s" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.5;0" dur="6s" begin="0s" repeatCount="indefinite"/></circle>
+      <text x="-8" y="-18" text-anchor="end" fill="#8b949e">SYSTEMS</text>
+    </g>
+    <g transform="translate(959 132)"><circle r="7" fill="#0d1117" stroke="#a371f7" stroke-width="2"/><text x="16" y="4" fill="#8b949e">BACKEND</text></g>
+    <g transform="translate(838 242)"><circle r="7" fill="#0d1117" stroke="#a371f7" stroke-width="2"/><text x="-14" y="4" text-anchor="end" fill="#8b949e">DATA</text></g>
+    <g transform="translate(965 248)"><circle r="7" fill="#0d1117" stroke="#a371f7" stroke-width="2"/><text x="16" y="4" fill="#8b949e">AUTOMATION</text></g>
+    <g transform="translate(1054 278)"><circle r="7" fill="#0d1117" stroke="#a371f7" stroke-width="2"/><text x="16" y="4" fill="#8b949e">APPLIED AI</text></g>
+    <g transform="translate(866 371)"><circle r="7" fill="#0d1117" stroke="#a371f7" stroke-width="2"/><text x="-14" y="4" text-anchor="end" fill="#8b949e">PRODUCT</text></g>
+  </g>
+
+  <circle r="17" fill="url(#pulse)" filter="url(#glow)" opacity="0">
+    <animate attributeName="opacity" values="1;1" dur="8s" repeatCount="indefinite"/>
+    <animateMotion dur="8s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#route"/>
+    </animateMotion>
+  </circle>
+  <circle r="4.8" fill="#e9d5ff" filter="url(#glow)" opacity="0">
+    <animate attributeName="opacity" values="1;1" dur="8s" repeatCount="indefinite"/>
+    <animateMotion dur="8s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#route"/>
+    </animateMotion>
+  </circle>
 </svg>
